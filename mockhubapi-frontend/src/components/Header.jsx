@@ -56,7 +56,9 @@ const Header = () => {
                 <Menu className="w-6 h-6" />
               )}
             </button>
-            <Github className="text-white hover:bg-blue-700 rounded-lg transition duration-300 cursor-pointer" />
+            <a href="https://github.com/diddy0077/mockrestapi" target="_blank" rel="noopener noreferrer">
+              <Github className="text-white hover:bg-blue-700 rounded-lg transition duration-300 cursor-pointer" />
+            </a>
           </div>
         </div>
       </section>
