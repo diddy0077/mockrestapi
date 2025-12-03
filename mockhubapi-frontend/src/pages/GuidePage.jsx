@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { PlayCircle,Sparkles  } from "lucide-react";
 
 const GuidePage = () => {
   const [copiedStates, setCopiedStates] = useState({});
@@ -1271,6 +1272,26 @@ const GuidePage = () => {
           <li className="list-disc underline">/api/users/1/todos/1</li>
           <li className="list-disc underline">/api/users/1/posts/1</li>
         </ul>
+      </section>
+
+      <section className="mt-15">
+        <div className="flex items-center justify-start gap-2">
+          <Sparkles  />
+          <h1 className="text-2xl sm:text-3xl font-bold">Getting Started</h1>
+        </div>
+        <p className="mt-4 mb-8 underline">ApiMocker is a comprehensive fake REST API service perfect for development, testing, and tutorials.</p>
+
+        <div className="space-y-6">
+          <div>
+          <h2 className="text-blue-500 font-semibold sm:text-2xl text-xl border-b border-gray-300">Base URL</h2>
+          <p className="mt-4 bg-white shadow-xs rounded-lg p-4">All API endpoints are available at: https://mockhub-api.onrender.com</p>
+        </div>
+
+        <div>
+          <h2 className="text-blue-500 font-semibold sm:text-2xl text-xl border-b border-gray-300">Authentication</h2>
+          <p className="mt-4 bg-white shadow-xs rounded-lg p-4">MockHub is a public API for testing and development purposes, no authentication required.</p>
+        </div>
+        </div>
       </section>
     </main>
   );
