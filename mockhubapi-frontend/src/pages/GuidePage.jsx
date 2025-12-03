@@ -51,7 +51,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts/1')
+                      `fetch('https://mockhub-api.onrender.com/api/posts/1')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "fetch-single"
@@ -83,7 +83,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts/1'
+                      'https://mockhub-api.onrender.com/api/posts/1'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>
@@ -135,7 +135,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts')
+                      `fetch('https://mockhub-api.onrender.com/api/posts')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "fetch-all"
@@ -167,7 +167,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts'
+                      'https://mockhub-api.onrender.com/api/posts'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>
@@ -227,7 +227,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/search?query=example')
+                      `fetch('https://mockhub-api.onrender.com/api/search?query=example')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "global-search"
@@ -259,7 +259,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/search?query=example'
+                      'https://mockhub-api.onrender.com/api/search?query=example'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>
@@ -318,7 +318,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts', {
+                      `fetch('https://mockhub-api.onrender.com/api/posts', {
   method: 'POST',
   headers: {
     "Content-Type": "application/json"
@@ -366,7 +366,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts'
+                      'https://mockhub-api.onrender.com/api/posts'
                     </span>
                     <span className="text-[#d4d4d4]">, {"{"}</span>
                   </div>
@@ -469,7 +469,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts/1', {
+                      `fetch('https://mockhub-api.onrender.com/api/posts/1', {
   method: "PUT",
   headers: {
     "Content-Type": "application/json"
@@ -520,7 +520,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts/1'
+                      'https://mockhub-api.onrender.com/api/posts/1'
                     </span>
                     <span className="text-[#d4d4d4]">, {"{"}</span>
                   </div>
@@ -629,7 +629,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts/1', {
+                      `fetch('https://mockhub-api.onrender.com/api/posts/1', {
   method: "PATCH",
   headers: {
     "Content-Type": "application/json"
@@ -675,7 +675,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts/1'
+                      'https://mockhub-api.onrender.com/api/posts/1'
                     </span>
                     <span className="text-[#d4d4d4]">, {"{"}</span>
                   </div>
@@ -764,7 +764,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts/1', {
+                      `fetch('https://mockhub-api.onrender.com/api/posts/1', {
   method: "DELETE"
 });`,
                       "delete-post"
@@ -796,7 +796,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts/1'
+                      'https://mockhub-api.onrender.com/api/posts/1'
                     </span>
                     <span className="text-[#d4d4d4]">, {"{"}</span>
                   </div>
@@ -848,7 +848,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts?userId=14')
+                      `fetch('https://mockhub-api.onrender.com/api/posts?userId=14')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "filter-posts"
@@ -880,7 +880,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts?userId=14'
+                      'https://mockhub-api.onrender.com/api/posts?userId=14'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>
@@ -931,7 +931,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/users/1/posts?title=example&body=example')
+                      `fetch('https://mockhub-api.onrender.com/api/users/1/posts?title=example&body=example')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "filter-user-posts"
@@ -963,7 +963,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/users/1/posts?title=example&body=example'
+                      'https://mockhub-api.onrender.com/api/users/1/posts?title=example&body=example'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>
@@ -1027,7 +1027,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts/1/comments')
+                      `fetch('https://mockhub-api.onrender.com/api/posts/1/comments')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "nested-comments"
@@ -1059,7 +1059,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts/1/comments'
+                      'https://mockhub-api.onrender.com/api/posts/1/comments'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>
@@ -1166,7 +1166,7 @@ const GuidePage = () => {
                 <button
                   onClick={() =>
                     copyToClipboard(
-                      `fetch('https://mockhub-api.com/api/posts/1/comments/5')
+                      `fetch('https://mockhub-api.onrender.com/api/posts/1/comments/5')
   .then(res => res.json())
   .then(data => console.log(data));`,
                       "single-comment"
@@ -1198,7 +1198,7 @@ const GuidePage = () => {
                     <span className="text-[#4ec9b0]">fetch</span>
                     <span className="text-[#d4d4d4]">(</span>
                     <span className="text-[#ce9178]">
-                      'https://mockhub-api.com/api/posts/1/comments/5'
+                      'https://mockhub-api.onrender.com/api/posts/1/comments/5'
                     </span>
                     <span className="text-[#d4d4d4]">)</span>
                   </div>

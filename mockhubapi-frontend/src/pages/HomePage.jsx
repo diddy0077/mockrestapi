@@ -221,7 +221,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="text-right">
-              <div className="text-2xl font-bold text-forest-800">31</div>
+              <div className="text-2xl font-bold text-forest-800">45</div>
               <div className="text-sm text-forest-600">Active Endpoints</div>
             </div>
           </div>
