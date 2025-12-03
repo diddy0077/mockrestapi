@@ -5,7 +5,7 @@ A comprehensive fake REST API designed for developers to test, prototype, and de
 ## 🚀 Live Demo
 
 - **API Base URL**: https://mockhub-api.onrender.com
-- **Frontend Documentation**: https://mockhub-api.netlify.com (when running locally)
+- **Frontend Documentation**: https://mockhub-api.netlify.app (when running locally)
 - **Local API**: http://localhost:10000
 
 ## ✨ Features
