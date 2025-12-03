@@ -1279,7 +1279,7 @@ const GuidePage = () => {
           <Sparkles  />
           <h1 className="text-2xl sm:text-3xl font-bold">Getting Started</h1>
         </div>
-        <p className="mt-4 mb-8 underline">ApiMocker is a comprehensive fake REST API service perfect for development, testing, and tutorials.</p>
+        <p className="mt-4 mb-8 underline">MockHub is a comprehensive fake REST API service perfect for development, testing, and tutorials.</p>
 
         <div className="space-y-6">
           <div>
